@@ -16,5 +16,7 @@ const TaskList: React.FC = () => {
         </ul>
       }
     </div>
-  )
+  );
 };
+
+export default TaskList;

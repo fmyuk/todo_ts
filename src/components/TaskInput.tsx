@@ -29,5 +29,7 @@ const TaskInput: React.FC = () => {
         <button onClick={handleSubmit} className="btn is primary">追加</button>
       </div>
     </div>
-  )
-}
+  );
+};
+
+export default TaskInput;
