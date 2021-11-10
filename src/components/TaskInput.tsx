@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { addTask } from "../module/taskModule";
+import { addTask } from "../modules/tasksModule";
 
 const TaskInput: React.FC = () => {
   const dispatch = useDispatch();
